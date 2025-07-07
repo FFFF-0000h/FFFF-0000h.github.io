@@ -1,0 +1,8 @@
+title: Forex Forecasts
+description: Weekly insights and charts for DXY, EURUSD, and GBPUSD
+author: FFFF-0000h
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
