@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    {% seo %}
+  </head>
+  <body>
+    <h1>{{ site.title }}</h1>
+    <main>{{ content }}</main>
+    <footer>
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</p>
+    </footer>
+  </body>
+</html>
